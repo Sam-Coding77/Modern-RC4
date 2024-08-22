@@ -87,15 +87,29 @@ brute_force_gpu(known_output, key_length)
 
 ## Limitations
 
-Key Size Limitation: The current implementation is limited to a key size of 3 bytes. Attempting to use larger key sizes can result in excessive memory usage, which may cause the system to run out of RAM or crash due to insufficient memory. This limitation is inherent to the brute-force approach used in this project, where the key space grows exponentially with key size.
+**Key Size Limitation:** The current implementation is limited to a key size of 3 bytes. Attempting to use larger key sizes can result in excessive memory usage, which may cause the system to run out of RAM or crash due to insufficient memory. This limitation is inherent to the brute-force approach used in this project, where the key space grows exponentially with key size.
 
-Memory Constraints: The brute-force algorithm generates and stores all possible keys for the given key length in memory. For key sizes greater than 3 bytes, the memory required to store the key space becomes impractically large for most consumer-grade GPUs.
+**Memory Constraints:** The brute-force algorithm generates and stores all possible keys for the given key length in memory. For key sizes greater than 3 bytes, the memory required to store the key space becomes impractically large for most consumer-grade GPUs.
 
-Performance Scalability: While CUDA provides significant performance improvements for smaller key sizes, the brute-force approach does not scale well with increasing key sizes. The number of possible keys grows exponentially, making brute-force attacks computationally infeasible for larger key sizes.
+**Performance Scalability:** While CUDA provides significant performance improvements for smaller key sizes, the brute-force approach does not scale well with increasing key sizes. The number of possible keys grows exponentially, making brute-force attacks computationally infeasible for larger key sizes.
 
-Limited to RC4 Stream Cipher: This project focuses solely on the RC4 stream cipher and its enhanced variant. It does not address other stream ciphers or block ciphers, and the techniques used here may not be directly applicable to other encryption algorithms.
+**Limited to RC4 Stream Cipher:** This project focuses solely on the RC4 stream cipher and its enhanced variant. It does not address other stream ciphers or block ciphers, and the techniques used here may not be directly applicable to other encryption algorithms.
 
-Simplified Encryption for Demonstration: The plaintext used in the examples is simple and small. In real-world scenarios, plaintext might be larger and more complex, requiring additional adjustments to the algorithm and memory management.
+**Simplified Encryption for Demonstration:** The plaintext used in the examples is simple and small. In real-world scenarios, plaintext might be larger and more complex, requiring additional adjustments to the algorithm and memory management.
+
+## Results
+
+**Traditional RC4:**
+
+
+
+
+
+
+
+**Enhanced RC4:**
+
+
 
 ## Performance
 
