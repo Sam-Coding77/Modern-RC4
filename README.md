@@ -84,7 +84,7 @@ print("Known Output (for testing):", known_output)
 brute_force_gpu(known_output, key_length)
 ```
 
-### Performance
+## Performance
 
 The CUDA implementation provides significant performance improvements over CPU-based brute-force attacks by leveraging parallel processing on the GPU. The performance gain is particularly noticeable for small key lengths, where a brute-force attack can quickly search through the key space.
 
@@ -96,6 +96,8 @@ This project is inspired by the need to understand the security and vulnerabilit
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
+## Contact Me
+    - Feel free to ask any questions on my email : samama4200@gmail.com
+    - Connect with me on linkedin : www.linkedin.com/in/samama-
 
-This README file gives an overview of the project, installation instructions, and usage examples for both the traditional RC4 and Enhanced RC4 implementations. You can further customize it according to your specific needs and project requirements.
+
