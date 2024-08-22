@@ -99,15 +99,19 @@ brute_force_gpu(known_output, key_length)
 
 ## Results
 
-**Traditional RC4:**
+### Traditional RC4
 
 
 
+![TraditionalRC4](#Images/Traditional RC4.png)
 
 
 
+### Enhanced RC4
 
-**Enhanced RC4:**
+
+
+![TraditionalRC4](#Images/Enhanced RC4.png)
 
 
 
