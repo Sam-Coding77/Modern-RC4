@@ -14,6 +14,7 @@ This project demonstrates the implementation of the RC4 and Enhanced RC4 encrypt
 - [Performance](#performance)
 - [Acknowledgments](#acknowledgments)
 - [License](#license)
+- [Contact](#contact)
 
 ## Introduction
 
@@ -96,7 +97,7 @@ This project is inspired by the need to understand the security and vulnerabilit
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact Me
+## Contact
 
 Feel free to ask any questions on my email : samama4200@gmail.com
 
