@@ -112,7 +112,7 @@ brute_force_gpu(known_output, key_length)
 
 
 
-![EnhancedRC4](Images/EnchancedRC4.png)
+![EnhancedRC4](Images/EnhancedRC4.png)
 
 
 
