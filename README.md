@@ -97,7 +97,7 @@ This project is inspired by the need to understand the security and vulnerabilit
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact Me
-    - Feel free to ask any questions on my email : samama4200@gmail.com
-    - Connect with me on linkedin : www.linkedin.com/in/samama-
+Feel free to ask any questions on my email : samama4200@gmail.com
+Connect with me on linkedin : www.linkedin.com/in/samama-
 
 
